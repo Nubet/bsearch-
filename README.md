@@ -76,7 +76,7 @@ This project uses Google Test included as a third‑party submodule under `third
 # Build the project and tests
 git clone https://github.com/Nubet/Bsearch.git
 cd Bsearch
-git clone https://github.com/google/googletest.git/third_party/googletest
+git clone https://github.com/google/googletest.git third_party/googletest
 make            # compiles bsearch.o and test_bsearch executable
 
 # Run the test suite
